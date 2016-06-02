@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'bootstrap-sass', '~> 3.3.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+gem 'material_design_lite-rails'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'gmaps4rails'
 gem 'rails_admin'
+gem 'materialize-sass'
+
 
 gem 'geocoder'
 # Use jquery as the JavaScript library

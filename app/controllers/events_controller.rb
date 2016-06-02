@@ -82,6 +82,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def event_params
-      params.require(:event).permit(:name, :lat, :lng, :location, :zone, :city, :title, :type, :description, :items, :month, :day, :year, :hour, :loss, :sex, :age, :report, :user_id)
+      params.require(:event).permit(:lat, :lng, :location, :zone, :city, :title, :zip, :type, :description, :items, :month, :day, :year, :hour, :loss, :sex, :age, :report, :user_id)
     end
 end
